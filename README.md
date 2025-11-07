@@ -1,5 +1,9 @@
 ## Signal内置代理搭建
+此脚本有什么作用：
+可以在服务器上自建内置代理让被signal限制封锁的地区也能使用
+
 ### 使用说明
+系统建议使用Debian|Ubuntu
 1. 检测系统环境并根据需要更换源为阿里云源
 2. 安装必要的依赖（curl、git、openssl）
 3. 检测并安装Docker和docker-compose（如果尚未安装）

@@ -14,5 +14,5 @@
 
 ### 一键脚本
 ```shell
-curl -fsSL https://raw.githubusercontent.com/piokto/Signal-proxy/refs/heads/main/signal-proxy.sh | ba
+curl -fsSL https://raw.githubusercontent.com/piokto/Signal-proxy/refs/heads/main/signal-proxy.sh | bash
 ```

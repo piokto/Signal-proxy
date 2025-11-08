@@ -1,10 +1,9 @@
 ## Signal内置代理搭建
 此脚本有什么作用：
-可以在服务器上自建内置代理让被signal限制封锁的地区也能使用
-### 手动安装
 Signal 的简单 TLS 代理在 Signal Android 和 Signal iOS 上均受支持，还可以绕过网络阻止并安全地将流量路由到 Signal 服务。部署完成后，您将获得一个URL，他人只需点击该链接，即可轻松使Signal通过代理连接。
 
 而搭建 Signal 代理并不复杂，只需几步即可完成。建议在搭建前先查看 Signal-TLS-Proxy，我以 Ubuntu 24.04 LTS (Noble Numbat) 为例，一步步搭建 Signal 代理。
+### 手动安装
 
 #### 1. 安装 Docker
 首先运行以下命令安装 Docker：
